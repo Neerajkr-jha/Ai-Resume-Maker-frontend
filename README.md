@@ -1,95 +1,20 @@
-An AI-powered resume builder that helps users create professional, ATS-friendly resumes with ease. Users can download resumes, share them publicly, or keep them private, giving full control over visibility and privacy.
+AI Resume Maker
 
-🚀 Features
+AI Resume Maker is a web application that empowers users to create professional, ATS-optimized resumes using AI. The platform supports resume download in multiple formats, and provides options to share publicly or keep resumes private for enhanced privacy control.
 
-✨ AI-Powered Resume Generation
+🚀 Project Overview
 
-📄 Professional & ATS-Optimized Templates
+AI Resume Maker is designed to simplify resume creation with a clean, intuitive interface and AI-powered content generation. Whether you’re a student, professional, or job seeker, you can quickly build a resume, customize it, and export it for sharing or printing.
 
-⬇️ Download Resume (PDF / DOCX)
-
-🔐 Privacy Control
-
-Public resume sharing (unique URL)
-
-Private resumes (access-restricted)
-
-✏️ Edit & Update Anytime
-
-🌐 Share Resume with Recruiters
-
-📱 Responsive Design (Desktop & Mobile)
-
-🛠️ Tech Stack
-
-Frontend: React / Next.js
-
-Backend: Node.js / Express
-
-AI Engine: OpenAI / LLM-based API
-
-Database: MongoDB / PostgreSQL
-
-Authentication: JWT / OAuth
-
-Storage: Cloudinary / AWS S3
-
-Deployment: Vercel / Render / AWS
-
-📦 Installation
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-resume-builder.git
-cd ai-resume-builder
-
-2️⃣ Install Dependencies
-npm install
-
-3️⃣ Environment Variables
-
-Create a .env file in the root directory:
-
-OPENAI_API_KEY=your_api_key
-DATABASE_URL=your_database_url
-JWT_SECRET=your_secret_key
-
-4️⃣ Run the Application
-npm run dev
-
-🔑 Privacy & Sharing
-
-Public Resume:
-Generates a shareable link accessible to anyone.
-
-Private Resume:
-Only visible to the owner unless explicitly shared.
-
-Users can change privacy settings anytime.
-
-📄 Resume Download Options
-
-PDF
-
-DOCX
-
-Printable Format
-
-🧪 Future Enhancements
-
-🔍 Job-specific resume tailoring
-
-🎯 Skill gap analysis
-
-🤖 Cover letter generator
-
-📊 Resume analytics (views & downloads)
-
-🌍 Multi-language support
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repository and submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License.
+Ai-Resume-Maker-frontend/
+├── public/                  # Static assets
+├── src/
+│   ├── components/         # React components
+│   ├── pages/              # Page views
+│   ├── utils/              # Helper functions
+│   ├── services/           # API integrations
+│   └── assets/             # Images & styles
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
