@@ -6,16 +6,17 @@ AI Resume Maker is a web application that empowers users to create professional,
 
 AI Resume Maker is designed to simplify resume creation with a clean, intuitive interface and AI-powered content generation. Whether you’re a student, professional, or job seeker, you can quickly build a resume, customize it, and export it for sharing or printing.
 
-Ai-Resume-Maker-frontend/
-├── public/                 # Static assets
-├── src/
-│   ├── components/         # Reusable React components
-│   ├── pages/              # Application pages/views
-│   ├── utils/              # Utility/helper functions
-│   ├── services/           # API service integrations
-│   └── assets/             # Images, styles, icons
-├── .gitignore
-├── package.json
-├── README.md
-└── vite.config.js
+## Project Structure
+
+- public/ – Static assets  
+- src/
+  - components/ – Reusable React components  
+  - pages/ – Page views  
+  - utils/ – Helper functions  
+  - services/ – API integrations  
+  - assets/ – Images and styles  
+- .gitignore  
+- package.json  
+- vite.config.js  
+
 
