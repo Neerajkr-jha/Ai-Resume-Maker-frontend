@@ -1,20 +1,22 @@
-<<<<<<< HEAD
-# React + Vite
+AI Resume Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Resume Maker is a web application that empowers users to create professional, ATS-optimized resumes using AI. The platform supports resume download in multiple formats, and provides options to share publicly or keep resumes private for enhanced privacy control.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AI Resume Maker is designed to simplify resume creation with a clean, intuitive interface and AI-powered content generation. Whether you’re a student, professional, or job seeker, you can quickly build a resume, customize it, and export it for sharing or printing.
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- public/ – Static assets  
+- src/
+  - components/ – Reusable React components  
+  - pages/ – Page views  
+  - utils/ – Helper functions  
+  - services/ – API integrations  
+  - assets/ – Images and styles  
+- .gitignore  
+- package.json  
+- vite.config.js  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Ai-Resume-Makes-frontend-
->>>>>>> 7c1b22c8cf20fa31250af2c09c99e86f6ded88e9
